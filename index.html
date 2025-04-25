@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agencia de Viajes Inteligente</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <h1>ERP para Agencias de Viajes</h1>
+    <p>Soluciones integradas para una gestión eficiente y competitiva</p>
+  </header>
+  <div class="tabs">
+    <div class="tab">Hoteles</div>
+    <div class="tab">Vuelos</div>
+  </div>
+
+  <div class="tab-content active">
+    <h2>Hoteles Populares</h2>
+    <ul>
+      <li>Hotel Paraíso del Sol - Cancún</li>
+      <li>Grand Vista Resort - Punta Cana</li>
+      <li>City Center Inn - Nueva York</li>
+      <li>Alpes Boutique Hotel - Suiza</li>
+    </ul>
+  </div>
+
+  <div class="tab-content">
+    <h2>Vuelos Disponibles</h2>
+    <ul>
+      <li>CDMX → Madrid - Aerolínea XYZ</li>
+      <li>Buenos Aires → Miami - Aerolínea ABC</li>
+      <li>Lima → Bogotá - LATAM</li>
+      <li>Santiago → París - Air France</li>
+    </ul>
+  </div>
+
+  <main class="container">
+    <section id="cliente">
+      <h2>Datos Esenciales del Cliente</h2>
+      <ul>
+        <li><strong>Información Personal:</strong> Nombre completo, fecha de nacimiento y datos de contacto.</li>
+        <li><strong>Documentación:</strong> Pasaporte, visas e identificaciones nacionales.</li>
+        <li><strong>Preferencias:</strong> Destinos favoritos, tipos de alojamiento y actividades de interés.</li>
+        <li><strong>Historial:</strong> Viajes anteriores, feedback e incidencias reportadas.</li>
+      </ul>
+    </section>
+
+    <section id="datos-operativos">
+      <h2>Datos Operativos y Externos</h2>
+      <h3>Datos de Transacciones</h3>
+      <ul>
+        <li>Reservas de vuelos y hoteles</li>
+        <li>Métodos de pago y montos</li>
+        <li>Cancelaciones y modificaciones</li>
+      </ul>
+
+      <h3>Datos de Proveedores</h3>
+      <ul>
+        <li>Contactos de aerolíneas y hoteles</li>
+        <li>Contratos y tarifas negociadas</li>
+        <li>Disponibilidad en tiempo real</li>
+      </ul>
+
+      <h3>Datos Externos</h3>
+      <ul>
+        <li>Tendencias del mercado</li>
+        <li>Regulaciones y alertas de viaje</li>
+        <li>Análisis de competidores</li>
+      </ul>
+    </section>
+
+    <section id="gds">
+      <h2>Sistemas de Distribución Global (GDS)</h2>
+      <ul>
+        <li><strong>Aerolíneas:</strong> Acceso a inventarios de vuelos</li>
+        <li><strong>Agencias:</strong> Distribución de productos</li>
+        <li><strong>Hoteles:</strong> Disponibilidad de alojamientos</li>
+        <li><strong>Transportes:</strong> Opciones de traslados</li>
+      </ul>
+    </section>
+
+    <section id="bi">
+      <h2>Business Intelligence en Viajes</h2>
+      <ul>
+        <li><strong>Recopilación de datos:</strong> Centralización de información operativa y de mercado.</li>
+        <li><strong>Análisis de tendencias:</strong> Identificación de patrones y oportunidades.</li>
+        <li><strong>Generación de insights:</strong> Transformación de datos en conocimiento accionable.</li>
+        <li><strong>Decisiones estratégicas:</strong> Optimización de estrategias y planificación operativa.</li>
+      </ul>
+    </section>
+
+    <section id="diferenciadores">
+      <h2>Diferenciadores Clave para Competir</h2>
+      <ul>
+        <li><strong>Personalización:</strong> Experiencias adaptadas a preferencias individuales.</li>
+        <li><strong>Innovación Tecnológica:</strong> Implementación de IA y BI para anticipar tendencias.</li>
+        <li><strong>Atención al Cliente:</strong> CRM robustos para una comunicación fluida y efectiva.</li>
+      </ul>
+    </section>
+
+    <section id="registro">
+      <h2>Formulario de Registro</h2>
+      <form action="#" method="post">
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="fecha">Fecha de nacimiento:</label>
+        <input type="date" id="fecha" name="fecha" required>
+
+        <label for="destino">Destino favorito:</label>
+        <input type="text" id="destino" name="destino">
+
+        <label for="comentario">Comentarios adicionales:</label>
+        <textarea id="comentario" name="comentario" rows="4"></textarea>
+
+        <button type="submit">Registrar</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="index.js"></script>
+
+  <footer>
+    <p>&copy; 2025 Agencia de Viajes Inteligente | Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
